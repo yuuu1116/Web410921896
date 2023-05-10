@@ -1,7 +1,24 @@
 ﻿
 @{
-    ViewBag.Title = "Index";
+//ViewBag.Title = "Index";
 }
 
 <h2>Index</h2>
 
+
+<form action="~/Controllers/Action" method="post">
+    <div>
+        帳號:<input id="email" name="email" type="text" value="" /><br />
+        密碼:<input id="password" type="password" value"" />
+        <input id="isStudend" name="isStudent" type="checkbox" value="ture" />
+        <input id="isNew" name="isNew" type="radio" value="0" />
+        <input disa
+    </div>
+</form>
+
+@{
+    var message = "hi";
+}
+<p>
+    @message
+</p>
