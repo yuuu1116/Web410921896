@@ -1,16 +1,17 @@
-﻿using System.Data.OleDb;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
 using System.Web.Mvc;
 
 namespace Web410921896.Controllers
 {
-    public class TestController : Controller
+    public class WaterController : Controller
     {
-        // GET: Test
+        // GET: Water
         public ActionResult Index()
         {
             return View();
-          
-
         }
     }
 }
