@@ -18,16 +18,16 @@
         @class = "text-danger"
     })
     <div class="form-group">
-        @Html.LabelFor(model => model.name, htmlAttributes: new
+        @Html.LabelFor(model => model.Username, htmlAttributes: new
         {
             @class = "control-label col-md-2"})
         <div class="col-md-10">
-            @Html.EditorFor(model => model.name, new
+            @Html.EditorFor(model => model.Username, new
             {
                 htmlAttributes = new
                 {
                     @class = "form-control"}})
-            @Html.ValidationMessageFor(model => model.name, "", new
+            @Html.ValidationMessageFor(model => model.Username, "", new
             {
                 @class = "text-danger"})
         </div>
