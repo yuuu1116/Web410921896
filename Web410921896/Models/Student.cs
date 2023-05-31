@@ -18,5 +18,6 @@ namespace Web410921896.Models
         public string name { get; set; }
         public string number { get; set; }
         public string email { get; set; }
+        public bool IsActive { get; set; }
     }
 }
